@@ -1,0 +1,29 @@
+# Python bytecode dosyaları
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Conda ortam dosyaları
+.env
+.conda
+conda-meta
+
+# Sanal ortamlar
+venv/
+env/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+echo '.idea' >> .gitignore
+
+# Diğer
+*.log
+
+# Default ignored files
+/shelf/
+/workspace.xml
